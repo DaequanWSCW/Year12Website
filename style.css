@@ -1,16 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    background-color: #242424;
+    background-color: #000000;
 
     margin: 0;
     font-family: Arial, sans-serif;
   }
   
   nav {
-    background-color: #222;
+    background-color: #000000;
     padding: 1rem 2rem;
     display: flex;
     justify-content: flex-end;
-
+   
   }
   
   nav a {
@@ -21,7 +27,7 @@ body {
     padding: 5px 0;
     transition: color 0.3s ease;
     font-size: 22px;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif
   }
   
   nav a::after {
@@ -33,17 +39,33 @@ body {
     width: 100%;
     background-color: #ffffff;
     transform: scaleX(0);
-    transform-origin: right;
+    transform-origin: center;
     transition: transform 0.3s ease;
   }
   
   nav a:hover {
-    color: #858585;
+    color: #ffffff;
   }
   
   nav a:hover::after {
     transform: scaleX(1);
-    transform-origin: left;
+    transform-origin: center;
   }
 
+h1 {
+  text-align:center;
 
+  color: white;
+  
+}
+
+h4 {
+  color: white;
+  text-align: center;
+}
+
+@media all and (max-width: 768px) {
+
+  
+
+}
