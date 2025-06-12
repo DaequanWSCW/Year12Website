@@ -66,6 +66,17 @@ h4 {
 
 @media all and (max-width: 768px) {
 
-  
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
 
+  nav a {
+    flex-direction: column;
+    text-align: center;
+  } 
+
+  h1 {
+    font-size: 1rem;
+  }
 }
