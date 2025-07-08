@@ -84,10 +84,37 @@ h4 {
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
 }
 
+
+.cover {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Make sure SVG fills the screen */
+.background-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+/* Title stays on top */
+.title-right {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+  text-align: right;
+  z-index: 1;
+  color: white;
+  max-width: 50%;
+}
 @media all and (max-width: 768px) {
-  .cover {
-    display: none;
-  }
+
   nav {
     flex-direction: column;
     text-align: center;
