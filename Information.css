@@ -88,6 +88,39 @@ h4 {
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
 }
 
+.title-Causes {
+  position: absolute;
+  top: 50%;
+  right: 12%;
+  transform: translateY(-50%);
+  text-align: right;
+  z-index: 1;
+  color: white;
+  max-width: 50%;
+  font-size: 4rem
+}
+.sub-titlecauses {
+  position: absolute;
+  top: 60%;
+  right: 4%;
+  transform: translateY(-50%);
+  text-align: center;
+  z-index: 1;
+  color: white;
+  max-width: 50%;
+  font-family:monospace
+}
+.sub-title {
+  position: absolute;
+  top: 60%;
+  right: 11%;
+  transform: translateY(-50%);
+  text-align: center;
+  z-index: 1;
+  color: white;
+  max-width: 50%;
+  font-family:monospace
+}
 @media all and (max-width: 768px) {
   .cover {
     display: none;
