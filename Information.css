@@ -125,16 +125,7 @@ h4 {
   .cover {
     display: none;
   }
-  .title-right {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    right: auto;
-    transform: translate(-50%, -50%);
-    max-width: 90%;
-    text-align: center;
-    z-index: 1;
-  }
+
   nav {
     flex-direction: column;
     text-align: center;
@@ -146,10 +137,61 @@ h4 {
   h1 {
     font-size: 1rem;
   }
-  .title-right h1 {
-    font-size: 2.5rem;
+
+ .title-Causes {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    text-align: center;
+    z-index: 1;
+  }
+  .title-Causes h1 {
+    font-size: 3rem;
+  }
+ 
+  .sub-titlecauses {
+    position: absolute;
+    top: 60%;
+    right: 6%;
+    transform: translateY(-50%);
+    text-align: center;
+    z-index: 1;
+    color: white;
+    max-width: 90%;
+    font-family: monospace;
+    font-size: 2rem;
   }
 
+  .title-right h1 {
+    font-size: 3rem;
+  }
+
+  .title-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    text-align: center;
+    z-index: 1;
+  }
+  .sub-title {
+    position: absolute;
+    top: 67%;
+    right: 6%;
+    transform: translateY(-50%);
+    text-align: center;
+    z-index: 1;
+    color: white;
+    max-width: 90%;
+    font-family: monospace;
+    font-size: 2rem;
+  }
 
 }
+
 
