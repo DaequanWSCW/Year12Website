@@ -76,6 +76,21 @@ h4 {
   max-width: 50%;
 }
 
+.sub-title {
+  position: absolute;
+  top: 64%;
+  right: 13%;
+  transform: translateY(-50%);
+  text-align: center;
+  z-index: 1;
+  color: white;
+  max-width: 50%;
+  font-family:monospace
+}
+
+.cover {
+  display: left;
+}
 .title-right h1 {
   font-size: 6rem;
   line-height: 1.1;
@@ -88,26 +103,31 @@ h4 {
   .cover {
     display: none;
   }
+  .title-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    text-align: center;
+    z-index: 1;
+  }
   nav {
     flex-direction: column;
     text-align: center;
   }
-
   nav a {
     flex-direction: column;
     text-align: center;
   } 
-
   h1 {
     font-size: 1rem;
   }
-   .title-right h1 {
+  .title-right h1 {
     font-size: 2.5rem;
   }
 
-  .title-right {
-    right: 2%;
-    max-width: 90%;
-    text-align: center;
-  }
+
 }
+
