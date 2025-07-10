@@ -102,7 +102,7 @@ h4 {
 .sub-titlecauses {
   position: absolute;
   top: 60%;
-  right: 4%;
+  right: 10.5%;
   transform: translateY(-50%);
   text-align: center;
   z-index: 1;
@@ -120,6 +120,33 @@ h4 {
   color: white;
   max-width: 50%;
   font-family:monospace
+}
+
+.introduction {
+  position: absolute;
+  top: 75%;
+  right: 30.4%;
+  max-width: 35%;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  z-index: 1;
+}
+
+
+
+
+.Introduction-text {
+  position: absolute;
+  top: 80%;
+  right: 9%;
+  max-width: 33%;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  z-index: 1;
 }
 @media all and (max-width: 768px) {
   .cover {
@@ -191,7 +218,31 @@ h4 {
     font-family: monospace;
     font-size: 2rem;
   }
-
+.introduction {
+  position: absolute;
+  top: 70%;
+  right: 38%;
+  max-width: 35%;
+  color: #fff;
+  font-size: 1.3rem;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  z-index: 1;
 }
 
 
+
+
+.Introduction-text {
+  position: absolute;
+  top: 75%;
+  right: 0%;
+  max-width: 100%;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  z-index: 1;
+}
+
+}
