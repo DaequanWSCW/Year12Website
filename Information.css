@@ -9,7 +9,7 @@ body {
 
     margin: 0;
     font-family: Arial, sans-serif;
-    
+    overflow:scroll;
   }
   
   nav {
@@ -79,6 +79,8 @@ h4 {
 
 .cover {
   display: left;
+  stroke: #000000;
+  stroke-width: 0.5px;
 }
 .title-right h1 {
   font-size: 6rem;
