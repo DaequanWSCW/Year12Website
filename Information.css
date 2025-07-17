@@ -127,8 +127,8 @@ h4 {
 .introduction {
   position: absolute;
   top: 75%;
-  right: 30.4%;
-  max-width: 35%;
+  right: 30%;
+  max-width: 33%;
   color: #fff;
   font-size: 1.2rem;
   text-align: left;
@@ -142,7 +142,7 @@ h4 {
 .Introduction-text {
   position: absolute;
   top: 80%;
-  right: 9%;
+  right: 8.7%;
   max-width: 33%;
   color: #fff;
   font-size: 1.2rem;
@@ -150,6 +150,94 @@ h4 {
   font-family: Arial, sans-serif;
   z-index: 1;
 }
+
+
+.Cause1 {
+  position: absolute;
+  top: 120%;
+  left: 10%;
+  max-width: 33%;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  z-index: 1;
+}
+
+
+.Cause1-image {
+  position: absolute;
+  top: 125%;
+  left: 10%;
+  max-width: 33%;
+  z-index: 1;
+}
+
+.Cause1-text {
+  position: absolute;
+  top: 172%;
+  left: 10%;
+  max-width: 33%;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  z-index: 1;
+}
+
+.Cause2 {
+  position: absolute;
+  top: 120%;
+  right: 10%;
+  max-width: 33%;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: right;
+  font-family: Arial, sans-serif;
+  z-index: 1;
+}
+
+.Cause2-image {
+  position: absolute;
+  top: 125%;
+  right: 10%;
+  max-width: 33%;
+  z-index: 1;
+}
+
+.Cause2-text {
+  position: absolute;
+  top: 172%;
+  right: 10%;
+  max-width: 33%;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  z-index: 1;
+}
+
+.back-to-top {
+  transition: transform 0.3s cubic-bezier(.68,-0.55,.27,1.55), color 0.3s;
+  display: inline-block;
+  color: #fff;
+  font-size: 3rem;
+  text-decoration: none;
+  margin-top: 2rem;
+  position: absolute;
+  top: 200%;
+  right: 10%;
+  
+}
+
+.back-to-top:hover {
+  transform: translateY(-8px) scale(1.15) rotate(-8deg);
+  color: #a1a1a1;
+}
+
+
+
+
 @media all and (max-width: 768px) {
   .cover {
     display: none;
@@ -245,6 +333,84 @@ h4 {
   text-align: center;
   font-family: Arial, sans-serif;
   z-index: 1;
+}
+
+.Cause1 {
+  position: absolute;
+  top: 120%;
+  left: 10%;
+  max-width: 80%;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  z-index: 1;
+}
+
+
+.Cause1-image {
+  position: absolute;
+  top: 125%;
+  left: 10%;
+  max-width: 80%;
+  z-index: 1;
+}
+
+.Cause1-text {
+  position: absolute;
+  top: 152%;
+  left: 10%;
+  max-width: 80%;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  z-index: 1;
+}
+
+.Cause2 {
+  position: absolute;
+  top: 200%;
+  left: -20%;
+  max-width: 80%;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  z-index: 1;
+}
+
+.Cause2-image {
+  position: absolute;
+  top: 203%;
+  left: 10%;
+  max-width: 80%;
+  z-index: 1;
+}
+
+.Cause2-text {
+  position: absolute;
+  top: 230%;
+  left: 10%;
+  max-width: 80%;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  z-index: 1;
+}
+
+.back-to-top {
+  transition: transform 0.3s cubic-bezier(.68,-0.55,.27,1.55), color 0.3s;
+  display: inline-block;
+  color: #fff;
+  font-size: 3rem;
+  text-decoration: none;
+  margin-top: 2rem;
+  position: absolute;
+  top: 260%;
+  right: 14%;
+  
 }
 
 }
