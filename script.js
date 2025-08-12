@@ -100,7 +100,8 @@
         resetState();
         let currentQuestion = questions[currentQuestionIndex];
         let questionNo = currentQuestionIndex + 1;
-        questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+        questionElement.innerHTML = questionNo + ". " + currentQuestion.
+        question;
 
         currentQuestion.answers.forEach(answer => {
             const button = document.createElement("button");
@@ -119,6 +120,16 @@
         while(answerButton.firstChild){
             answerButton.removeChild(answerButton.firstChild);
         }
+    }
+
+function selectAnswer(){
+    const selectedBtn = e.target;
+    const isCorrect = selectedBtn.dataset.correct === "true";
+    if(isCorrect){
+        selectedBtn.classList.add("correct");
+    }else{
+        selectedBtn.classList.add("incorrect");
+    }
     }
 
     startQuiz();
