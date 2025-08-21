@@ -88,10 +88,12 @@ h4 {
   font-family:monospace
 }
 
+
 .cover {
   display: left;
   stroke: #000000;
   stroke-width: 0.5px;
+  fill: #444
 }
 .title-right h1 {
   font-size: 6rem;

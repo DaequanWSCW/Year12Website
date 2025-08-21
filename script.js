@@ -45,7 +45,7 @@
             ]
         },
         {
-            question: "Which of the following can help reduce the negative effects of nighttime screen use?",
+            question: "Which of the following can help reduce the negative effects of night time screen use?",
             answers: [
                 { text: "Holding the screen closer to your eyes", correct: false},
                 { text: "Using devices in complete darkness", correct: false},
@@ -142,7 +142,7 @@ function selectAnswer(e){
 
 function showScore(){
     resetState();
-    questionElement.innerHTML = `You got a score of ${score} out of ${questions.length}! Good Job!`;
+    questionElement.innerHTML = `You got a score of ${score} out of ${questions.length}! Well done!`;
     nextButton.innerHTML = "Restart";
     nextButton.style.display = "block";
 }               
