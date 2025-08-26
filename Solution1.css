@@ -9,8 +9,9 @@ background-color: #222;
 margin: 0;
 font-family: Arial, sans-serif;
 overflow:scroll;
-}
-    
+  }
+
+
 nav {
 background-color: #222;
 padding: 1rem 2rem;
@@ -59,15 +60,47 @@ stroke-width: 0.5px;
 fill: #444;
 }
 
-.sub-titlesolutions {
+.title-Causes {
     position: absolute;
-    top: 60%;
-    right: 6%;
-    transform: translateY(-50%);
+    top: 42%;
+    right: 10%;
+
+    text-align: right;
+    z-index: 1;
+    color: white;
+    max-width: 50%;
+    font-size: 4rem
+  }
+  .sub-titlecauses {
+    position: absolute;
+    top: 57%;
+    right: 10%;
     text-align: center;
     z-index: 1;
     color: white;
-    max-width: 90%;
-    font-family: monospace;
-    font-size: 2rem;
+    max-width: 50%;
+    font-family:monospace
   }
+
+  .introduction {
+position: absolute;
+top: 75%;
+right: 32.5%;
+max-width: 33%;
+color: #fff;
+font-size: 1.2rem;
+text-align: left;
+font-family: Arial, sans-serif;
+z-index: 1;
+}
+.Introduction-text {
+position: absolute;
+top: 80%;
+right: 11.2%;
+max-width: 33%;
+color: #fff;
+font-size: 1.2rem;
+text-align: left;
+font-family: Arial, sans-serif;
+z-index: 1;
+}
