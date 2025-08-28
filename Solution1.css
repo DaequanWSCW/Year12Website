@@ -104,3 +104,68 @@ text-align: left;
 font-family: Arial, sans-serif;
 z-index: 1;
 }
+
+.Solution1 {
+  position: absolute;
+  top: 130%;
+  left: 10%;
+  max-width: 33%;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  z-index: 1;
+}
+
+
+.Solution1-image {
+  position: absolute;
+  top: 135%;
+  left: 10%;
+  max-width: 33%;
+  z-index: 1;
+}
+
+.Solution1-text {
+  position: absolute;
+  top: 188%;
+  left: 10%;
+  max-width: 33%;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  z-index: 1;
+}
+
+.Solution2 {
+  position: absolute;
+  top: 130%;
+  right: 10%;
+  max-width: 33%;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: right;
+  font-family: Arial, sans-serif;
+  z-index: 1;
+}
+
+.Solution2-image {
+  position: absolute;
+  top: 135%;
+  right: 10%;
+  max-width: 35%;
+  z-index: 1;
+}
+
+.Solution2-text {
+  position: absolute;
+  top: 188%;
+  right: 10%;
+  max-width: 33%;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  z-index: 1;
+}
