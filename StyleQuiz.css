@@ -143,10 +143,13 @@ nav a:hover::after {
 
 /* Mobile Support */
 @media all and (max-width: 768px) {
+
+  /* SVG */
 .cover {
   display: none;
 }
 
+/* Navigation Bar */
 nav {
   flex-direction: column;
   text-align: center;
@@ -155,4 +158,7 @@ nav a {
   flex-direction: column;
   text-align: center;
 } 
+
+.body {
+  overflow: scroll;
 }
