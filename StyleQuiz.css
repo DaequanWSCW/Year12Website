@@ -4,13 +4,15 @@
     box-sizing: border-box;
     font-family:Arial, Helvetica, sans-serif
   }
-  
+
+/* Background Colour */
 body {
   background-color: #222; 
   margin: 0;  
   overflow:hidden;
-    }
-  
+}
+
+/* Quiz App */
 .app {
   background: #2b2b2b;
   width: 90%;
@@ -19,7 +21,6 @@ body {
   border-radius: 50px;
   padding: 30px;       
 } 
-
 .app h1 {
   font-weight: 25px;
   color: #eeeeee;
@@ -27,21 +28,17 @@ body {
   border-bottom: 5px solid #b1b1b1;
   padding-bottom: 30px;
 }
-
 #question {
   color: #eeeeee; 
 }
-
 .quiz {
   padding: 20px 0;
 }
-
 .quiz h2 {
   font-size: 18px;
   color: #e2e2e2;
   font-weight: 600;
 }
-
 .btn {
   background: #505050;
   color: #ffffff;
@@ -55,16 +52,13 @@ body {
   cursor: pointer; 
   transition: all 0.7s;
 }
-
 .btn:hover:not([disabled]) {
   background: #ffffff;
   color: #505050;
 }
-
 .btn:disabled {
  cursor: no-drop;
 }
-
 #next-btn {
   background: #505050;
   color: #fff;
@@ -75,67 +69,7 @@ body {
   margin: 20px auto 0;
   border-radius: 50px;
   cursor: pointer;
-  
 }
-    
-nav {
-  background-color: #222;
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: flex-end;
-     
-}
-    
-nav a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  margin: 0 20px;
-  position: relative;
-  padding: 5px 0;
-  transition: color 0.3s ease;
-  font-size: 22px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif
-}
-    
-nav a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 2px;
-  width: 100%;
-  background-color: #ffffff;
-  transform: scaleX(0);
-  transform-origin: center;
-  transition: transform 0.3s ease;
-}
-    
-nav a:hover {
-  color: #ffffff;
-}
-    
-nav a:hover::after {
-  transform: scaleX(1);
-  transform-origin: center;
-}
-
-.cover {
-  position: fixed;
-  top: 4.3rem;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  overflow: hidden;
-  pointer-events: none;
-  fill: #414141;
-  stroke-width: 0.5px;
-  display: left;
-  stroke: #000000;
-      }
-
-
-
 .correct{
   background: #005c28;
   
@@ -148,19 +82,77 @@ nav a:hover::after {
   display: block !important;
 }
 
+  
+/* Navigation Bar */
+nav {
+  background-color: #222;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0 20px;
+  position: relative;
+  padding: 5px 0;
+  transition: color 0.3s ease;
+  font-size: 22px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 
+/* Hover Effect */
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #ffffff;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+nav a:hover {
+  color: #ffffff;
+}
+nav a:hover::after {
+  transform: scaleX(1);
+  transform-origin: center;
+}
+
+/* SVG Cover */
+.cover {
+  position: fixed;
+  top: 4.3rem;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+  fill: #414141;
+  stroke-width: 0.5px;
+  display: left;
+  stroke: #000000; 
+}
+
+
+
+
+/* Mobile Support */
 @media all and (max-width: 768px) {
-  .cover {
-    display: none;
-  }
+.cover {
+  display: none;
+}
 
-  nav {
-    flex-direction: column;
-    text-align: center;
-  }
-  nav a {
-    flex-direction: column;
-    text-align: center;
-  } 
-
+nav {
+  flex-direction: column;
+  text-align: center;
+}
+nav a {
+  flex-direction: column;
+  text-align: center;
+} 
 }

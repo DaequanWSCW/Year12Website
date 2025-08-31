@@ -4,67 +4,56 @@
   box-sizing: border-box;
 }
 
-body {
-    background-color: #222;
 
-    margin: 0;
-    font-family: Arial, sans-serif;
-    overflow: hidden;
+/* Background Colour */
+body {
+  background-color: #222;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
   }
-  
-  nav {
-    background-color: #222;
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: flex-end;
+
+/* Navigation Bar */
+nav {
+  background-color: #222;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: flex-end;
    
-  }
-  
+}
   nav a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    margin: 0 20px;
-    position: relative;
-    padding: 5px 0;
-    transition: color 0.3s ease;
-    font-size: 22px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
-  }
-  
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0 20px;
+  position: relative;
+  padding: 5px 0;
+  transition: color 0.3s ease;
+  font-size: 22px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Hover Effect */
   nav a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 2px;
-    width: 100%;
-    background-color: #ffffff;
-    transform: scaleX(0);
-    transform-origin: center;
-    transition: transform 0.3s ease;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #ffffff;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
   }
-  
-  nav a:hover {
+nav a:hover {
     color: #ffffff;
   }
-  
-  nav a:hover::after {
-    transform: scaleX(1);
-    transform-origin: center;
+nav a:hover::after {
+  transform: scaleX(1);
+  transform-origin: center;
   }
 
-h1 {
-  text-align:center;
-
-  color: white;
-  
-}
-
-h4 {
-  color: white;
-  text-align: center;
-}
-
+/* Title */
 .title-right {
   position: absolute;
   top: 50%;
@@ -75,7 +64,6 @@ h4 {
   color: white;
   max-width: 50%;
 }
-
 .sub-title {
   position: absolute;
   top: 64%;
@@ -85,15 +73,7 @@ h4 {
   z-index: 1;
   color: white;
   max-width: 50%;
-  font-family:monospace
-}
-
-
-.cover {
-  display: left;
-  stroke: #000000;
-  stroke-width: 0.5px;
-  fill: #414141
+  font-family:monospace;
 }
 .title-right h1 {
   font-size: 6rem;
@@ -103,51 +83,58 @@ h4 {
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
 }
 
+/* Triangle SVG */
+.cover {
+  display: left;
+  stroke: #000000;
+  stroke-width: 0.5px;
+  fill: #414141;
+}
 
-
+/* Mobile Support */
 @media all and (max-width: 768px) {
-  .cover {
-    display: none;
-  }
 
-  nav {
-    flex-direction: column;
-    text-align: center;
-  }
-  nav a {
-    flex-direction: column;
-    text-align: center;
-  } 
-  h1 {
-    font-size: 1rem;
-  }
-  
-  .title-right h1 {
-    font-size: 3rem;
-  }
 
-  .title-right {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    right: auto;
-    transform: translate(-50%, -50%);
-    max-width: 90%;
-    text-align: center;
-    z-index: 1;
-  }
-  .sub-title {
-    position: absolute;
-    top: 67%;
-    right: 6%;
-    transform: translateY(-50%);
-    text-align: center;
-    z-index: 1;
-    color: white;
-    max-width: 90%;
-    font-family: monospace;
-    font-size: 2rem;
-  }
+/* Triangle SVG */
+.cover {
+  display: none;
+}
 
+/* Navigation Bar */
+nav {
+  flex-direction: column;
+  text-align: center;
+}
+nav a {
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Title */
+.title-right h1 {
+  font-size: 3rem;
+}
+.title-right {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  text-align: center;
+  z-index: 1;
+}
+.sub-title {
+  position: absolute;
+  top: 67%;
+  right: 6%;
+  transform: translateY(-50%);
+  text-align: center;
+  z-index: 1;
+  color: white;
+  max-width: 90%;
+  font-family: monospace;
+  font-size: 2rem;
+}
 }
 
