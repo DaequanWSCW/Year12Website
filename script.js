@@ -9,7 +9,7 @@
             ]
         },
         {
-            question: "How long before bedtime is it reccomended to stop using devices to help improve sleep quality?",
+            question: "How long before bedtime is it recommended to stop using devices to help improve sleep quality?",
             answers: [
                 { text: "5 minutes", correct: false},
                 { text: "15 minutes", correct: false},
@@ -18,7 +18,7 @@
             ]
         },
         {  
-            question: "Which hormone does blue light supress, making it harder to fall asleep?",
+            question: "Which hormone does blue light suppress, making it harder to fall asleep?",
             answers: [
                 { text: "Cortiso", correct: false},
                 { text: "Serotonin", correct: false},
@@ -72,12 +72,21 @@
             ]
         },
         {
-            question: "What are 3 ways that can help stop execssive device use at night?",
+            question: "What are three ways you can do to reduce excessive device use at night?",
             answers: [
                 { text: "Just get off your device, its not that hard", correct: false},
                 { text: "Charge your phone next to bed, Disable dnd, leave notifications unmuted", correct: false},
                 { text: "Use mutiple devices at once, scroll media in bed, play games in the dark", correct: false},
                 { text: "Use App Limits, Greyscale, Charge/Keep your phone outside of your room", correct: true},
+            ]
+        },
+        {
+            question: "Which habit before bedtime can most negatively impact your sleep quality?",
+            answers: [
+                { text: "Reading a book in dim light", correct: false},
+                { text: "Drinking water before bed", correct: false},
+                { text: "Scrolling on your phone or using devices before bed", correct: true},
+                { text: "Doing light stretches", correct: false},
             ]
         }
     ];
