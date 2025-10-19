@@ -122,10 +122,11 @@ nav a:hover::after {
   left: 10%;
   width: 33%;
   z-index: 1;
+  outline: 2px solid #000000;
 }
 .Solution1-text {
   position: absolute;
-  top: 188%;
+  top: 190%;
   left: 10%;
   max-width: 33%;
   color: #fff;
@@ -153,10 +154,11 @@ nav a:hover::after {
   left: 57%;
   z-index: 1;
   width: 33%;
+  outline: 2px solid #000000;
 }
 .Solution2-text {
   position: absolute;
-  top: 188%;
+  top: 190%;
   right: 10%;
   max-width: 33%;
   color: #fff;
@@ -184,10 +186,11 @@ nav a:hover::after {
   left: 35%;
   z-index: 1;
   width: 33%;
+  outline: 2px solid #000000;
 }
 .Solution3-text {
   position: absolute;
-  top: 278%;
+  top: 279%;
   right: 32%;
   max-width: 33%;
   color: #fff;
@@ -199,21 +202,31 @@ nav a:hover::after {
 
 /* Back to top */
 .back-to-top {
-  transition: transform 0.3s cubic-bezier(.68,-0.55,.27,1.55), color 0.3s;
+  position: absolute;
+  top: 277%;
+  right: 1%;
+  z-index: 1;
   display: inline-block;
   color: #fff;
   font-size: 3rem;
   text-decoration: none;
   margin-top: 2rem;
-  position: absolute;
-  top: 280%;
-  right: 1%;
-  
+  transition: transform 0.3s cubic-bezier(.68,-0.55,.27,1.55), color 0.3s;
 }
 
-.back-to-top:hover {
-  transform: translateY(-8px) scale(1.15) rotate(-8deg);
-  color: #a1a1a1;
+/* underline animation */
+.back-to-top::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #ffffff; 
+  transition: width 0.3s ease;
+  margin-top: 5px;
+}
+
+.back-to-top:hover::after {
+  width: 100%;
 }
 
 /* Mobile Support */
@@ -300,7 +313,7 @@ z-index: 1;
 }
 .Solution1-text {
   position: absolute;
-  top: 163%;
+  top: 160%;
   left: 10%;
   max-width: 80%;
   color: #fff;
@@ -331,7 +344,7 @@ z-index: 1;
 }
 .Solution2-text {
   position: absolute;
-  top: 265%;
+  top: 262%;
   left: 10%;
   max-width: 80%;
   color: #fff;
@@ -362,7 +375,7 @@ z-index: 1;
 }
 .Solution3-text {
   position: absolute;
-  top: 360%;
+  top: 357%;
   right: 10%;
   max-width: 80%;
   color: #fff;
